@@ -48,7 +48,7 @@
 //      will not be sent.
 //    - `my_program > /var/log/my_program/my_program-$(date+%Y-%m-%d-%H%M%S).log`
 //      will create a log file in /var/log/my_program each time it is run.
-package stdlog
+package main
 
 import (
 	"flag"
