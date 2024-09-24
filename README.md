@@ -11,8 +11,6 @@ You are more than welcome to ask questions on the [Go mailing-list](https://grou
 
 # stdlog
 
-[Documentation](http://godoc.org/github.com/alexcesaro/log/stdlog)
-
 Package stdlog provides simple and fast logging to the standard output
 (stdout) and is optimized for programs launched via a shell or cron. It can
 also be used to log to a file by redirecting the standard output to a file.
@@ -67,8 +65,6 @@ Some use cases:
 
 # buflog
 
-[Documentation](http://godoc.org/github.com/alexcesaro/log/buflog)
-
 Package buflog provides a buffered logging class that accumulates logs in
 memory until the flush threshold is reached which release stored logs, the
 buffered logger then act as a normal logger.
@@ -81,8 +77,6 @@ Basic example:
 
 
 # golog
-
-[Documentation](http://godoc.org/github.com/alexcesaro/log/golog)
 
 Package golog provides a customizable logging class which can be used as a
 standalone or as a building block for other loggers.
@@ -109,7 +103,5 @@ while it will not be executed on the second line.
 
 
 # log
-
-[Documentation](http://godoc.org/github.com/alexcesaro/log)
 
 Package log provides a common interface for logging libraries.
