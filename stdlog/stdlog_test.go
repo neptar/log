@@ -5,8 +5,8 @@ import (
 	"io"
 	"testing"
 
-	"github.com/alexcesaro/log"
-	"github.com/alexcesaro/log/logtest"
+	"github.com/neptar/log"
+	"github.com/neptar/log/logtest"
 )
 
 var (

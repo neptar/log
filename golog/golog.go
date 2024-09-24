@@ -3,20 +3,20 @@
 //
 // Basic example:
 //
-//     logger := golog.New(os.Stdout, log.Info)
-//     logger.Info("Connecting to the server...")
-//     logger.Errorf("Connection failed: %q", err)
+//	logger := golog.New(os.Stdout, log.Info)
+//	logger.Info("Connecting to the server...")
+//	logger.Errorf("Connection failed: %q", err)
 //
 // Will output:
 //
-//     2014-04-02 18:09:15.862 INFO Connecting to the API...
-//     2014-04-02 18:10:14.347 ERROR Connection failed (Server is unavailable).
+//	2014-04-02 18:09:15.862 INFO Connecting to the API...
+//	2014-04-02 18:10:14.347 ERROR Connection failed (Server is unavailable).
 //
 // Log*() functions can be used to avoid evaluating arguments when it is
 // expensive and unnecessary:
 //
-//     logger.Debug("Memory usage: %s", getMemoryUsage())
-//     if logger.LogDebug() { logger.Debug("Memory usage: %s", getMemoryUsage()) }
+//	logger.Debug("Memory usage: %s", getMemoryUsage())
+//	if logger.LogDebug() { logger.Debug("Memory usage: %s", getMemoryUsage()) }
 //
 // If debug logging is off getMemoryUsage() will be executed on the first line
 // while it will not be executed on the second line.
@@ -29,7 +29,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/alexcesaro/log"
+	"github.com/neptar/log"
 )
 
 // A Logger represents an active logging object that generates lines of output

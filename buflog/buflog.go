@@ -4,17 +4,17 @@
 //
 // Basic example:
 //
-//     logger := buflog.New(os.Stdout, log.Info, log.Error)
-//     logger.Info("Connecting to the server...")   // Outputs nothing
-//     logger.Error("Connection failed")            // Outputs both lines
+//	logger := buflog.New(os.Stdout, log.Info, log.Error)
+//	logger.Info("Connecting to the server...")   // Outputs nothing
+//	logger.Error("Connection failed")            // Outputs both lines
 package buflog
 
 import (
 	"bufio"
 	"io"
 
-	"github.com/alexcesaro/log"
-	"github.com/alexcesaro/log/golog"
+	"github.com/neptar/log"
+	"github.com/neptar/log/golog"
 )
 
 // A Logger represents an active buffered logging object.
